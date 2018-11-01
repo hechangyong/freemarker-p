@@ -1,0 +1,20 @@
+<ProjectConf projectName="test">
+    <DBModelDef>
+        <Groups>
+            <DBModelGroup id="testDB" caption="xml输入摸版文件" package="com.hecy.model">
+                <DBModels name="ddd">
+                    <DBModel id="aaa"
+                             caption="用户表"
+                              cols="username(用户名):vc50|
+                                age(年龄):Long "
+                              />
+                    <DBModel id="sss"
+                             caption="bbb"
+                             cols="username(用户名):vc50|
+                                age(年龄):Long "
+                    />
+                </DBModels>
+            </DBModelGroup>
+        </Groups>
+    </DBModelDef>
+</ProjectConf>
